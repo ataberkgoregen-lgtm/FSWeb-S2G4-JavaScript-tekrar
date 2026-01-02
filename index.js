@@ -140,13 +140,6 @@ for (let i = 0; i < sayilar.length; i++) {
       } else {
         sayiTekrar[sayilar[j]] = sayiTekrar[sayilar[j]] + 1;
       }
-      if (i === sayilar.length - 2) {
-        console.log(
-          `${sayilar[j]} sayısı ${
-            sayiTekrar[sayilar[j]]
-          } kere tekrar edilmiştir.`
-        );
-      }
     }
   }
 }
