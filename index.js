@@ -143,7 +143,14 @@ for (let i = 0; i < sayilar.length; i++) {
     }
   }
 }
-console.log(sayiTekrar);
+
+for (const property in sayiTekrar) {
+  tekraredensayilar.push(
+    `${property} sayısı, ${sayiTekrar[property]} kere tekrar edilmiştir.`
+  );
+}
+
+console.log(tekraredensayilar);
 
 /* kodlar buraya */
 
